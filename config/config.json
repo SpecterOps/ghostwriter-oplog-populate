@@ -1,0 +1,7 @@
+{
+    "credentials": {
+        "gw_url": "http://127.0.0.1:8080/v1/graphql",
+        "gw_username": "admin",
+        "gw_password": "zKVVKFRED19IBQgj6SM1Mqva5FIJBI3j"
+    }
+}
