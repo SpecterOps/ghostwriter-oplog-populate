@@ -73,7 +73,7 @@ def generate_oplog(file_path, entries):
                 }, {
                     'command': 'spawn x64 HTTPS',
                     'description': 'PID ' + str(random.randrange(1,32768)),
-                    'comment': 'Navigating to a directory'
+                    'comment': 'Spawning a new beacon'
                 }, {
                     'command': 'pwd',
                     'description': 'PID ' + str(random.randrange(1,32768)),
