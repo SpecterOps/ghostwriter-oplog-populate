@@ -111,7 +111,7 @@ def get_logon_token(credentials):
     # Define our gql query
     get_logon_token_query = gql(
         """
-        mutation Login($password: String!, $username: String!) {
+        mutation login_mutation($password: String!, $username: String!) {
             login(password: $password, username: $username) {
                 token expires
             }
@@ -128,7 +128,7 @@ def get_logon_token(credentials):
         get_logon_token_query,
         variable_values=get_logon_token_query_params
     )
-    return login_result["login"]["token"] # pylint: disable=unsubscriptable-object
+    return login_result["login"]["token"]
 
 def create_sample_client(gql_client):
     """
