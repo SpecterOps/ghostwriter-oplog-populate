@@ -5,7 +5,7 @@ This tool demonstrates how to use Ghostwriter's GraphQL API to interact with Gho
 
 ## Getting Started
 
-First, clone the project.
+First, clone the project and install the project requirements.
 
 Thern, fill out the config file with a valid set of Ghostwriter credentials.
 
